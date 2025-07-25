@@ -106,7 +106,6 @@ RUN git clone https://github.com/strasdat/Sophus.git /Sophus \
 
 # 安装g2o（图优化库）
 RUN sudo apt install -y \
-    libeigen3-dev \
     libspdlog-dev \
     libsuitesparse-dev \
     qtdeclarative5-dev \
